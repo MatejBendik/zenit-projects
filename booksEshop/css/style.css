@@ -1,0 +1,150 @@
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.075em;
+}
+
+/*
+header
+*/
+
+#topHeader {
+  height: 40px;
+}
+
+li {
+  margin-right: 40px;
+}
+
+#navLogo {
+  padding-left: 60px;
+}
+
+#rightElements {
+  padding-right: 100px;
+}
+
+#navText {
+  color: #f3f3f3;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+#navText:hover {
+  color: #fb8754;
+}
+
+.socialIcon {
+  border: 1px solid #f3f3f3;
+  padding: 1px;
+}
+
+.socialIcon:hover {
+  border: 1px solid #fb8754;
+  padding: 1px;
+}
+
+.mainHeader {
+  background-color: #3a3939;
+}
+
+/*
+carousel 
+*/
+
+#carouselCaption {
+  padding-bottom: 290px;
+}
+
+#carouselCaptionH1 {
+  letter-spacing: 10px;
+  padding-bottom: 30px;
+}
+
+#carouselCaptionP {
+  font-size: 26px;
+  line-height: 29px;
+  padding-bottom: 30px;
+}
+
+/* CSS */
+#carouselButton {
+  align-items: center;
+  border: 2px solid #f3f3f3;
+  box-sizing: border-box;
+  color: #f3f3f3;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-size: 26px;
+  font-weight: 400;
+  height: 60px;
+  width: 220px;
+  justify-content: center;
+  letter-spacing: 5px;
+  line-height: 24px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#carouselButton:focus {
+  color: #f3f3f3;
+}
+
+#carouselButton:hover {
+  border-color: #337ab7;
+  color: #337ab7;
+  fill: #fb8754;
+}
+
+@media (min-width: 768px) {
+  #carouselButton {
+    min-width: 170px;
+  }
+}
+
+/*
+footer
+*/
+
+#footer {
+  background-color: #3a3939;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+#footerText {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f3f3f3;
+  font-size: 15px;
+}
+
+#footerTextLeft {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f3f3f3;
+  font-size: 15px;
+  text-align: left;
+}
+
+#footerTextRight {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f3f3f3;
+  font-size: 15px;
+  text-align: right;
+}
+
+#footerSources {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+#footerSources:hover {
+  color: #fb8754;
+  text-decoration: underline;
+}
