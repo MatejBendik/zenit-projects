@@ -148,3 +148,37 @@ footer
   color: #fb8754;
   text-decoration: underline;
 }
+
+/*
+autor page
+*/
+
+#mainHeading {
+  letter-spacing: 2px;
+}
+
+#textAlign {
+  text-align: justify;
+}
+
+#mainSection {
+  background-color: #f3f3f3;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#headingSecond {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+#list p {
+  line-height: 16px;
+}
+
+#lastItem {
+  padding-bottom: 90px;
+}

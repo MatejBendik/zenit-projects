@@ -1,0 +1,48 @@
+#buyButton {
+  align-items: center;
+  border: 3px solid #151515;
+  box-sizing: border-box;
+  color: #151515;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #151515;
+  font-size: 26px;
+  font-weight: 400;
+  height: 60px;
+  width: 220px;
+  justify-content: center;
+  letter-spacing: 5px;
+  line-height: 24px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#buyButton:focus {
+  color: #151515;
+}
+
+#buyButton:hover {
+  border-color: #337ab7;
+  color: #337ab7;
+  fill: #fb8754;
+}
+
+@media (min-width: 768px) {
+  #buyButton {
+    min-width: 170px;
+  }
+}
+
+#bottomSpace {
+  padding-bottom: 150px;
+}
+
+#price {
+  font-size: 30px;
+  text-align: right;
+}
