@@ -1,0 +1,6 @@
+::foto001;Cadillac;Toto naše zlatíčko je skutočne zo zlata. Čo myslíte, ako by v zlatej vyzeralo to vaše?
+::foto002;klasický Buick;Náš špeciálny modrý blesk. Tomuto kúsku sme sa venovali desiatky hodín, ale výsledok stojí zato. Veď posúďte sami
+::foto003;Chevrolet Bel Air;S naším novým náterom jazdí ako ohnivý blesk. Chceli by ste rovnaké. To už nespravíme, ale môžeme ešte lepšie ;-)
+::foto004;Austin Healey 100;Kompletné čalúnenie, nová prístrojová doska, volant. Samozrejme všetko dobové. Grátis sme ho celý vyleštili, proste nám to nedalo pustiť ho von taký špinavý.
+::foto005;Corvette;Krásna Korveta - prevedenie kabriolet. Vďaka nám opäť plne funkčná
+
