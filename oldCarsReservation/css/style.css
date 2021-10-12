@@ -51,7 +51,12 @@ Sluzby
 */
 
 #sluzby {
-  padding-bottom: 100;
+  padding-bottom: 100px;
+  padding-top: 250px;
+}
+
+#heading2 {
+  color: #ffffff;
 }
 
 /* CSS */

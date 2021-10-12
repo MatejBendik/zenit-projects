@@ -50,12 +50,13 @@
         </div>
 
         
-            <div class="container-fluid " id="sluzby">
+
+            <div class="container-fluid">
 
                 <div class="row justify-content-md-center">
 
                 <div class="col col-md-12 text-center">
-                    <h2>Sluzby</h2>
+                    <h2 class="text-white">Sluzby</h2>
                 </div>
                 </div>
                 <div class="row justify-content-md-center gx-5">
@@ -70,7 +71,7 @@
                 </div>
                 </div>
             </div>
-
+            <h1 id="h1">Hi</h1>
 
         <!-- Footer -->
         <footer id="footer" class="text-center ">
