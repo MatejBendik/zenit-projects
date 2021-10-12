@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
         content="Sir Arthur Conan Doyle (* 22. máj 1859, Edinburgh – † 7. júl 1930, Crowborough, Sussex, Spojené kráľovstvo) bol škótsky spisovateľ, ktorý sa preslávil poviedkami o Sherlockovi Holmesovi. Jeho ďalšie veľmi známe dielo je Stratený svet.">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?<?php echo time(); ?>">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <title>Old Cars Reservation</title>
@@ -36,9 +36,8 @@
             <div id="carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img id="bgImage" src="img/pozadie-uvod.jpg" class="d-block w-100 parallax" alt="Arthur Conan Doyle"
-                        title="Arthur Conan Doyle">
-                    <div id="carouselCaption" class="carousel-caption d-none d-md-block">
+                    <div class="img" style= "background-image: url(img/pozadie-uvod.jpg)"></div>
+                    <div id="carouselCaption" class="carousel-caption ">
                         <img class="img-fluid"  src="img/logo.png" id="logo"
                         alt="Logo" title="Logo">    
                     <h1 id="carouselCaptionH1">ZEN & HAR</h1>
@@ -49,29 +48,32 @@
             </div>
         </div>
 
-        
-
-            <div class="container-fluid">
-
+            <div style="background-image: url(img/pozadie-sluzby.jpg)" class=" text-center container-fluid text-white" id="sluzby">
                 <div class="row justify-content-md-center">
 
                 <div class="col col-md-12 text-center">
-                    <h2 class="text-white">Sluzby</h2>
+                    <h2 class="text-white">SLUŽBY</h2>
+                    <hr class="hr" style="height:5px">
                 </div>
                 </div>
-                <div class="row justify-content-md-center gx-5">
+                <div class="row justify-content-md-center gx-5" id="sluzbyTexts">
+                <div class="col col-4 ">
+                <img src="img/sluzby-opravy.png" alt="">
+                <h2 id="headingH2" class="text-white">OPRAVY</h2>
+                <p>Všeobecné opravy <br> Špecializované opravy <br> Dobové náhradné diely <br> </p>
+                </div>
                 <div class="col col-md-auto">
                 <img src="img/sluzby-opravy.png" alt="">
+                <h2 id="headingH2" class="text-white">Čalúnenie</h2>
+                <p>Veľký rozsah tkanín <br> Vrátane dobových koží <br> Široká paleta farieb <br> </p>
                 </div>
-                <div class="col-4 col-md-auto">
+                <div class="col col-4">
                 <img src="img/sluzby-opravy.png" alt="">
-                </div>
-                <div class="col col-md-auto">
-                <img src="img/sluzby-opravy.png" alt="">
+                <h2 id="headingH2" class="text-white">NÁTERY</h2>
+                <p>Striekanie <br> Ručné malovanie na základe <br> požiadavky klienta <br> </p>
                 </div>
                 </div>
             </div>
-            <h1 id="h1">Hi</h1>
 
         <!-- Footer -->
         <footer id="footer" class="text-center ">

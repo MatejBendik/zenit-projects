@@ -32,8 +32,17 @@ header
 carousel 
 */
 
+.img {
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #carouselCaption {
-  padding-bottom: 290px;
+  padding-bottom: 580px;
 }
 
 #carouselCaptionH1 {
@@ -52,11 +61,23 @@ Sluzby
 
 #sluzby {
   padding-bottom: 100px;
-  padding-top: 250px;
+  padding-top: 120px;
 }
 
-#heading2 {
+#headingH2 {
   color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hr {
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  opacity: 1;
 }
 
 /* CSS */
