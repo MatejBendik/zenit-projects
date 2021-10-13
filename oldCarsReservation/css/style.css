@@ -10,7 +10,8 @@ header
 */
 
 #topHeader {
-  height: 40px;
+  height: 60px;
+  background-color: #3a3939;
 }
 
 #navText {
@@ -25,7 +26,7 @@ header
 }
 
 .mainHeader {
-  background-color: #3a3939;
+  background-color: #ffffff;
 }
 
 /*
@@ -78,6 +79,52 @@ Sluzby
   margin-right: auto;
   color: #ffffff;
   opacity: 1;
+}
+
+/*
+gallery
+*/
+
+.hrGallery {
+  width: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  opacity: 1;
+}
+
+#galleryHeading {
+  margin-bottom: 20px;
+}
+
+#gallery {
+  padding: 90px;
+}
+
+#downImage {
+  margin-bottom: 50px;
+}
+
+.imgG {
+  transition: 2s ease-out;
+}
+
+.imgG:hover {
+  filter: grayscale();
+  transition: 2s ease-in;
+}
+
+/*
+generalka
+*/
+
+#generalka {
+  padding-top: 50px;
+}
+
+#generalis {
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 /* CSS */

@@ -75,6 +75,138 @@
                 </div>
             </div>
 
+
+<!-- Gallery -->
+
+<div class="container" id="gallery" >
+
+<div class="row justify-content-center">
+                <div class="col col-md-12 text-center" id="galleryHeading">
+                    <h2 class="text-black">NAŠA PRÁCA</h2>
+                    <hr class="hrGallery" style="height:5px">
+                    <p>Zbierka veteránov, ktoré sme renovovali s láskou</p>
+                </div>
+  <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="img/foto/foto005-nahlad.jpg"
+      class="w-100 shadow-1-strong  mb-4 imgG"
+      alt=""
+    />
+  </div>
+  <div class="col-lg-3 mb-4 mb-lg-0">
+    <img
+      src="img/foto/foto004-nahlad.jpg"
+      class="w-100 shadow-1-strong  mb-4 imgG"
+      alt=""
+    />
+  </div>
+  <div class="col-lg-6 mb-4 mb-lg-0">
+    <img
+      src="img/foto/foto003-nahlad.jpg"
+      class="w-100 shadow-1-strong  mb-4 imgG"
+      alt=""
+    />
+  </div>
+
+
+<div class="row justify-content-center">
+  <div class="col-lg-6 col-md-4 " id="down">
+    <img id="down"
+      src="img/foto/foto001-nahlad.jpg"
+      class="w-100 shadow-1-strong  mb-4 imgG" 
+      alt=""
+    />
+  </div>
+  <div class="col-lg-6 mb-4 ">
+    <img
+      src="img/foto/foto002-nahlad.jpg"
+      class="w-100 shadow-1-strong  mb-4 imgG"
+      alt=""
+    />
+  </div>
+  </div>
+
+
+</div>
+
+</div>
+
+
+</div>
+
+
+<!-- Rezervacka -->
+
+            <div style="background-image: url(img/pozadie-sluzby.jpg)" class=" text-center container-fluid text-white" id="sluzby">
+                <div class="row justify-content-md-center">
+
+                <div class="col col-md-12 text-center">
+                    <h2 class="text-white">REZERVAČKA</h2>
+                    <hr class="hr" style="height:5px">
+                </div>
+                <div class="row justify-content-md-center" id="generalis">
+    <div class="col col-lg-3">
+      <img src="img/generalka1.jpg" class="w-100" alt="">
+    </div>
+    <div class="col col-lg-4 text-center" id="generalka">
+      <h5>Generalna oprava</h5>
+      <p>1 hr | 50,00 €</p>
+      <button type="button" class="btn btn-light">REZERVOVAŤ</button>
+    </div>
+    <div class="col col-lg-3">
+      <img src="img/generalka2.jpg"  class="w-100"alt="">
+    </div>
+  </div>
+
+
+                <div class="row justify-content-md-center" id="generalis">
+    <div class="col col-lg-3">
+      <img src="img/calunenie2.jpg" class="w-100" alt="">
+    </div>
+    <div class="col col-lg-4 text-center" id="generalka">
+      <h5>Čalúnenia</h5>
+      <p>1 hr | 40,00 €</p>
+      <button type="button" class="btn btn-light">REZERVOVAŤ</button>
+    </div>
+    <div class="col col-lg-3">
+      <img src="img/calunenie1.jpg"  class="w-100"alt="">
+    </div>
+  </div>
+
+
+                <div class="row justify-content-md-center" id="generalis">
+    <div class="col col-lg-3">
+      <img src="img/natery2.jpg" class="w-100" alt="">
+    </div>
+    <div class="col col-lg-4 text-center" id="generalka">
+      <h5>Lakovanie, farbenie, nátery</h5>
+      <p>1 hr | 25,00 €</p>
+      <button type="button" class="btn btn-light">REZERVOVAŤ</button>
+    </div>
+    <div class="col col-lg-3">
+      <img src="img/natery1.jpg"  class="w-100"alt="">
+    </div>
+  </div>
+
+                <div class="row justify-content-md-center" id="generalis">
+    <div class="col col-lg-3">
+      <img src="img/poradenstvo1.jpg" class="w-100" alt="">
+    </div>
+    <div class="col col-lg-4 text-center" id="generalka">
+      <h5>Osobné konzultácie</h5>
+      <p>1 hr | 15,00 €</p>
+      <button type="button" class="btn btn-light">REZERVOVAŤ</button>
+    </div>
+    <div class="col col-lg-3">
+      <img src="img/poradenstvo2.jpg"  class="w-100"alt="">
+    </div>
+  </div>
+
+
+                </div>
+            </div>
+
+
         <!-- Footer -->
         <footer id="footer" class="text-center ">
             <!-- Grid container -->
