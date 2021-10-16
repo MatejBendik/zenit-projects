@@ -128,11 +128,38 @@ rezervacka
   border: 1px solid #2e3536;
 }
 
-#btn {
+#btn_generalka {
   background-color: #d0d1d1;
 }
 
-#btn:hover {
+#btn_calunenie {
+  background-color: #d0d1d1;
+}
+
+#btn_farbenie {
+  background-color: #d0d1d1;
+}
+
+#btn_konzultacie {
+  background-color: #d0d1d1;
+}
+
+#btn_generalka:hover {
+  color: #d0d1d1;
+  background-color: #2e2d2d;
+}
+
+#btn_calunenie:hover {
+  color: #d0d1d1;
+  background-color: #2e2d2d;
+}
+
+#btn_farbenie:hover {
+  color: #d0d1d1;
+  background-color: #2e2d2d;
+}
+
+#btn_konzultacie:hover {
   color: #d0d1d1;
   background-color: #2e2d2d;
 }

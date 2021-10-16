@@ -173,7 +173,7 @@ váš špecialista na veterány">
     <div class="col col-lg-4 text-center" id="generalka">
       <h5>Generalna oprava</h5>
       <p>1 hr | 50,00 €</p>
-      <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn ">REZERVOVAŤ</button>
+      <button onclick="buttonClicked(this.id)" type="button" id="btn_generalka" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn ">REZERVOVAŤ</button>
     </div>
     <div class="col col-lg-3">
       <img src="img/generalka2.jpg"  class="w-100"alt="">
@@ -188,7 +188,7 @@ váš špecialista na veterány">
     <div class="col col-lg-4 text-center" id="generalka">
       <h5>Čalúnenia</h5>
       <p>1 hr | 40,00 €</p>
-      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal"  id="btn">REZERVOVAŤ</button>
+      <button onclick="buttonClicked(this.id)" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal"  id="btn_calunenie">REZERVOVAŤ</button>
     </div>
     <div class="col col-lg-3">
       <img src="img/calunenie1.jpg"  class="w-100"alt="">
@@ -203,7 +203,7 @@ váš špecialista na veterány">
     <div class="col col-lg-4 text-center" id="generalka">
       <h5>Lakovanie, farbenie, nátery</h5>
       <p>1 hr | 25,00 €</p>
-      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn" >REZERVOVAŤ</button>
+      <button onclick="buttonClicked(this.id)" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn_farbenie" >REZERVOVAŤ</button>
     </div>
     <div class="col col-lg-3">
       <img src="img/natery1.jpg"  class="w-100"alt="">
@@ -217,7 +217,7 @@ váš špecialista na veterány">
     <div class="col col-lg-4 text-center" id="generalka">
       <h5>Osobné konzultácie</h5>
       <p>1 hr | 15,00 €</p>
-      <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn" >REZERVOVAŤ</button>
+      <button onclick="buttonClicked(this.id)" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn_konzultacie" >REZERVOVAŤ</button>
     </div>
     <div class="col col-lg-3">
       <img src="img/poradenstvo2.jpg"  class="w-100"alt="">
@@ -235,14 +235,14 @@ váš špecialista na veterány">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Rezervovať - </h5>
+        <h6 class="modal-title" id="modal-title"></h6>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Meno:</label>
-            <input type="text" class="form-control" id="name" name="name" required>
+        <form method="post" action="index.php">
+        <div class="mb-3">
+            <label for="recipient-name" class="col-form-label" >Meno:</label>
+            <input type="text" class="form-control" id="name" maxlength="64" name="name" required>
           </div>
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Email:</label>
@@ -252,17 +252,30 @@ váš špecialista na veterány">
             <label for="recipient-name" class="col-form-label">Datum:</label>
             <input type="date" class="form-control" id="date" name="date">
           </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zrušiť</button>
+            <button type="submit" class="btn btn-primary" id="submit" name="submit">Odoslať rezerváciu</button>
+          </div>
+            <?php 
+                $userName = $_POST["name"];
+                $userEmail = $_POST["email"];
+                $userDate = $_POST["date"];
+                $timeStamp = date("Y-m-d H:i:s");              
+
+              $sqlQuery = "INSERT INTO rezervacky(id, typ_sluzby, datum_rezervacie, meno, kontakt, stav, cas)
+                VALUES (NULL,'farbenie','$userDate','$userName','$userEmail','prijatá',now())";
+
+              if (mysqli_query($conn,$sqlQuery)) {
+                echo "record inserted successfully";
+              } else {
+                echo "Error: " . $sqlQuery . "<br>". mysqli_error($conn);
+              }
+            ?>
         </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zrušiť</button>
-        <button type="button" class="btn btn-primary">Odoslať rezerváciu</button>
       </div>
     </div>
   </div>
 </div>
-
-
 
 
         <!-- Footer -->
