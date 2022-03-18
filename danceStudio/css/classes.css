@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Abel;
+  src: url(../font/Abel_Regular.ttf);
+}
+
+.btn {
+  margin-top: 90px;
+  background-color: #b62126;
+  color: #fff;
+  height: 90px;
+  font-family: Abel;
+  font-size: 22px;
+}
+
+blink {
+  animation: blinker 0.8s infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.btn:hover {
+  filter: opacity(0.8);
+  color: #fff;
+}
+
+.classesOffer {
+  font-family: Abel;
+}
+
+.classesHeading {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-family: Abel;
+  font-weight: 800;
+}
+
+.imgClass {
+  margin-left: 120px;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.currentClass {
+  font-size: 25px;
+  margin-left: 15px;
+  margin-bottom: 35px;
+  color: #b62126;
+}
+
+.currentClassText {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+#goToAppForm {
+  height: 40px;
+  width: 360px;
+  font-size: 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  margin-bottom: 80px;
+}
+
+#signUp {
+  height: 40px;
+  width: 260px;
+  margin-top: -1px;
+  margin-left: 220px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#input {
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid #b62126;
+  box-shadow: 2px 2px grey;
+}
+
+#form {
+  display: none;
+}
+
+#form2 {
+  display: none;
+}
+
+#form3 {
+  display: none;
+}

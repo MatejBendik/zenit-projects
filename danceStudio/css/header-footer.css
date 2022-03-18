@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Abel;
+  src: url(../font/Abel_Regular.ttf);
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: Abel;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #b62126;
+}
+
+.navbar {
+  border-bottom: 3px solid #b62126;
+  background-color: #f4f4f4;
+}
+
+.navbar-nav {
+  padding-left: 300px;
+  padding-right: -20px;
+}
+
+.login {
+  color: #b62126;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 15px;
+  margin-left: 70px;
+}
+
+.createAcc {
+  color: grey;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.col-form-label {
+  text-align: right;
+}
+
+#userName {
+  margin-top: 10px;
+  height: 24px;
+}
+
+#bottomPass {
+  margin-top: -10px;
+  height: 24px;
+}
+
+.img {
+  padding-left: 20px;
+}
+
+.footer {
+  font-family: Abel;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+}
