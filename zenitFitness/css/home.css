@@ -1,0 +1,104 @@
+@font-face {
+  font-family: PlayFairDisplay-Medium;
+  src: url(../font/PlayFairDisplay/static/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: PlayFairDisplay-Regular;
+  src: url(../font/PlayFairDisplay/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: CaveatBrush;
+  src: url(../font/CaveatBrush/CaveatBrush-Regular.ttf);
+}
+
+@font-face {
+  font-family: ArrialNarrow;
+  src: url(../font/ArialNarrow.ttf);
+}
+
+/* 
+
+red: #DE4642
+green: #617F20
+white: #fff
+black: #000
+whitesmoke - o nas, Sluzby zakaznikom, Galeria, Cennik, Kontakt
+
+*/
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    font-family: PlayFairDisplay-Italic;
+    font-size: 21px;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 80px;
+  }
+
+  .nav-link {
+    color: #fff;
+  }
+
+  .nav-item {
+    padding: 15px 0px 15px 0;
+  }
+
+  .nav-item:hover {
+    background-color: #de4642;
+  }
+
+  #registerBtn {
+    background-color: #617f20;
+    color: #fff;
+    border-radius: 0 !important;
+    padding: 8px 30px 8px 30px;
+    font-size: 20px;
+    font-family: PlayFairDisplay-Medium;
+  }
+
+  .banner-image {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+  }
+
+  p#quote {
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-family: CaveatBrush;
+  }
+
+  .zenit {
+    color: #de4642;
+    font-size: 60px;
+    font-family: PlayFairDisplay-Medium;
+    float: left;
+  }
+
+  .fitness {
+    color: #617f20;
+    font-size: 60px;
+    font-family: PlayFairDisplay-Medium;
+    float: center;
+  }
+
+  #loginBtn {
+    margin-top: 50px;
+    padding: 10px 50px 10px 50px;
+    color: #fff;
+    font-size: 25px;
+    border: 3px solid #de4642;
+    border-radius: 10px;
+    font-family: PlayFairDisplay-Medium;
+  }
+
+  #loginBtn:hover {
+    background-color: #de4642;
+  }
+
+  #uvod {
+    margin-top: 130px;
+  }
+}
