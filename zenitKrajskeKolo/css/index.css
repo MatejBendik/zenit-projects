@@ -1,0 +1,161 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: PTSansNarrow-Bold;
+  src: url(../fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf);
+}
+
+@font-face {
+  font-family: PTSansNarrow-Regular;
+  src: url(../fonts/PT_Sans_Narrow/PTSansNarrow-Regular.ttf);
+}
+
+.heading {
+  font-family: BebasNeue;
+  color: #fefbd8;
+}
+
+#navigation {
+  background-color: #36486b;
+}
+
+.nav-link {
+  color: #fefbd8;
+  font-family: PTSansNarrow-Regular;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #fefbd8;
+  text-decoration: underline;
+}
+
+#label {
+  color: #fefbd8;
+  font-family: PTSansNarrow-Regular;
+  font-size: 17px;
+  margin-right: -20px;
+}
+
+#userName,
+#userPassword {
+  height: 28px;
+  width: 180px;
+  border-radius: 0px;
+}
+
+#userName {
+  margin-top: 8px;
+}
+
+#loginButton {
+  font-family: PTSansNarrow-Regular;
+  color: #fefbd8;
+  border: 1px solid #fefbd8;
+  border-radius: 0px;
+  margin-top: 10px;
+  width: 100px;
+  height: 35px;
+  font-size: 15px;
+  box-shadow: 1px 1px #000;
+}
+
+#newUser {
+  color: #fefbd8;
+  font-family: PTSansNarrow-Regular;
+  text-decoration: none;
+}
+
+.footer {
+  font-family: PTSansNarrow-Regular;
+  color: #fefbd8;
+  background-color: #36486b;
+  font-size: 17px;
+}
+
+.banner {
+  height: 461px;
+  margin-top: 150px;
+  background-image: url(../img/banner_image.jpg);
+}
+
+.bannerBox {
+  font-family: PTSansNarrow-Bold;
+  background-color: #000;
+  opacity: 0.5;
+  border-radius: 3px;
+  height: 250px;
+  padding-top: 105px;
+  padding-left: 100px;
+}
+
+.bannerTextBox {
+  position: relative;
+  color: #fff;
+}
+
+.newestProducts {
+  font-family: PTSansNarrow-Regular;
+}
+
+.newestHeading {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.imgProduct {
+  margin-left: 20px;
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  border: 6px solid rgb(54, 72, 107, 0.1);
+}
+
+#sellButton {
+  background-color: #36486b;
+  color: #fefbd8;
+  margin-bottom: 20px;
+  border-radius: 0px;
+}
+
+#productInfo {
+  margin-left: 40px;
+}
+
+.currentProduct {
+  color: #3b486c;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.hr {
+  margin-bottom: 30px;
+}
+
+.last {
+  margin-bottom: 120px;
+}
+
+/* -- Podmienky pouzitia  -- */
+
+.podmienky {
+  margin-top: 180px;
+}
+
+.podmienkyHeading {
+  font-family: PTSansNarrow-Bold;
+  margin-bottom: 30px;
+}
+
+.podmienkyBasic {
+  font-family: PTSansNarrow-Bold;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+#podmienkyLast {
+  margin-bottom: 120px;
+}

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: PTSansNarrow-Bold;
+  src: url(../fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf);
+}
+
+@font-face {
+  font-family: PTSansNarrow-Regular;
+  src: url(../fonts/PT_Sans_Narrow/PTSansNarrow-Regular.ttf);
+}
+
+.newUserH2 {
+  margin-top: 180px;
+  font-family: PTSansNarrow-Bold;
+  margin-bottom: 25px;
+}
+
+#form {
+  font-family: PTSansNarrow-Regular;
+  font-size: 20px;
+}
+
+#createUserBtn {
+  background-color: #36486b;
+  color: #fefbd8;
+  margin-bottom: 20px;
+  border-radius: 0px;
+  margin-top: 15px;
+  width: 170px;
+}
+
+#input {
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+/* -- Pridat inzerat -- */
+
+.last {
+  margin-bottom: 100px;
+}
